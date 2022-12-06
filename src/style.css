@@ -1,10 +1,15 @@
-.input,
-select {
-  display: inline-block;
-  margin-top: 10px;   /* styles go here */
+label {
+  display: block;
 }
 
-fieldset + fieldset,
-button {
+label + label {
+  margin-top: 10px;
+}
+
+.radio {
+  display: inline;
+}
+
+.fieldset {
   margin-top: 20px;
 }
